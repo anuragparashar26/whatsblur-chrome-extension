@@ -1,0 +1,12 @@
+.wa-blur-active ._ak8j ._ak8k > span:last-child {
+  filter: blur(5px) !important;
+  transition: filter 0.2s ease !important;
+}
+
+.wa-blur-active ._ak8l:hover ._ak8j ._ak8k > span:last-child {
+  filter: none !important;
+}
+
+.wa-blur-active ._ak8l span[title] {
+  filter: none !important;
+}
