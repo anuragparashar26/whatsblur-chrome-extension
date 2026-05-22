@@ -10,3 +10,13 @@
 .wa-blur-active ._ak8l span[title] {
   filter: none !important;
 }
+
+
+.wa-blur-active [data-testid="cell-frame-secondary"] span[data-testid="last-msg-status"] {
+  filter: blur(5px) !important;
+  transition: filter 0.2s ease !important;
+}
+
+.wa-blur-active [data-testid="cell-frame-secondary"]:hover span[data-testid="last-msg-status"] {
+  filter: none !important;
+}
